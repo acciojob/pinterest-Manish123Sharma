@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.hero{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.con_image{
+	width: 60%;
+}
+h1{
+	font-size: 20px;
+}
+.con_content{
+	text-align: center;
+	width: 40%;
+}
+button{
+	background-color: red;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+}
